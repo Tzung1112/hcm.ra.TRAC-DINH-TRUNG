@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 30px;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .itemtop {
+        width: 100%;
+        position: relative;
+    }
+
+    .imgtop {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+    }
+
+    .itemimgcontent {
+        position: absolute;
+        border: 0px solid;
+        background-color: rgb(255, 165, 0, 0.55);
+        bottom: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        width: 75%;
+        padding: 25px;
+        font-size: 40px;
+    }
+
+    .itembot {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 100px;
+        width: 90%;
+        margin-left: 130px;
+        display: flex;
+        gap: px;
+    }
+
+    .itemtl {
+        width: 50%;
+        
+    }
+
+    .itemtr {
+        width: 50%;
+    }
+
+    .itembl {
+        width: 50%;
+         
+    }
+
+    .itembr {
+        width: 50%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="itemtop">
+            <img class="imgtop" src="./img/beach3.jpg" alt="">
+            <div class="itemimgcontent">
+                <p>4 Good Reasons</p>
+                <p>For travelling with us</p>
+            </div>
+        </div>
+        <div class="itembot">
+            <div class="itemtl">
+                <img style="width: 90%;"  src="./img/cellphone.jpg" alt="">
+                <h4>Smart Vacation</h4>
+                <p> Full vacation full control form your cell phone</p>
+            </div>
+            <div class="itemtr">
+                <img style="width: 90%;" src="./img/sealions.jpg" alt="">
+                <h4>Smart Vacation</h4>
+                <p> Full vacation full control form your cell phone</p>
+            </div>
+            <div class="itembl">
+                <img style="width: 90%;" src="./img/truck.jpg" alt="">
+                <h4>Smart Vacation</h4>
+                <p> Full vacation full control form your cell phone</p>
+            </div>
+            <div class="itembr">
+                <img style="width: 90%;" src="./img/nowornever.jpg" alt="">
+                <h4>Smart Vacation</h4>
+                <p> Full vacation full control form your cell phone</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
